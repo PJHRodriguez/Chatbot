@@ -13,16 +13,3 @@ while True:
     reply = bot.reply("localuser", msg)
     print('Bot> ' + str(reply))
 
-'''
-    desde rivescript importa RiveScript
-    bot <- RiveScript()
-    bot.Leer_Archivo(archivo)
-    bot.OrdenarPregunta()
-
-    Mientras sea verdadero:
-        Si mensaje es igual a '/quit'
-            Salir()
-        reply <- bot.CompararDatos('BaseDatos',mensaje)
-        Imprime 'Bot' + reply
-
-'''
